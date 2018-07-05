@@ -1,8 +1,6 @@
 # myWaiter
 
-<p align="center">
-  <img src="https://imgur.com/a/FwdZMel" alt="myWaiter" />
-</p>
+![mesatabletmywaiter](https://user-images.githubusercontent.com/40640392/42309685-b338552c-800f-11e8-97cf-21094d00d44d.png)
 
 Self-service restaurant system developed in ASP.NET in C# using WebForms and some MVC concepts. 
 
