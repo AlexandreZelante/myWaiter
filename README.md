@@ -9,3 +9,7 @@ It's a self-service system, in which customers make their own order using a tabl
 Functionalities: Occupation of desks, individual registers, administrative area of product registration, finalization of account.
 
 Youtube Video: https://www.youtube.com/watch?v=7NnFWL-3GCg
+
+---------------------------
+
+Use the "bancodedados.sql" file to import the database using SQL Server.
