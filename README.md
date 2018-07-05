@@ -1,5 +1,9 @@
 # myWaiter
 
+<p align="center">
+  <img src="https://imgur.com/a/FwdZMel" alt="myWaiter" />
+</p>
+
 Self-service restaurant system developed in ASP.NET in C# using WebForms and some MVC concepts. 
 
 This is a work I did in 2015 when I was 17 years old in my technical course. It was developed from scratch in ASP.NET in C # using WebForms and some MVC concepts.
