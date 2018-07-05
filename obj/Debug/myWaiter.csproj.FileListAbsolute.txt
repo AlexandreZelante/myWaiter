@@ -1,0 +1,132 @@
+C:\Users\zz\Desktop\myWaiter2013\myWaiter\myWaiter\bin\myWaiter.dll.config
+C:\Users\zz\Desktop\myWaiter2013\myWaiter\myWaiter\bin\myWaiter.dll
+C:\Users\zz\Desktop\myWaiter2013\myWaiter\myWaiter\bin\myWaiter.pdb
+C:\Users\zz\Desktop\myWaiter2013\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+C:\Users\zz\Desktop\myWaiter2013\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+C:\Users\zz\Desktop\myWaiter2013\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+C:\Users\zz\Desktop\myWaiter\myWaiter\myWaiter\myWaiter\bin\myWaiter.dll.config
+C:\Users\zz\Desktop\myWaiter\myWaiter\myWaiter\myWaiter\bin\myWaiter.dll
+C:\Users\zz\Desktop\myWaiter\myWaiter\myWaiter\myWaiter\bin\myWaiter.pdb
+C:\Users\zz\Desktop\myWaiter\myWaiter\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+C:\Users\zz\Desktop\myWaiter\myWaiter\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+C:\Users\zz\Desktop\myWaiter\myWaiter\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter\myWaiter\bin\myWaiter.dll.config
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter\myWaiter\bin\myWaiter.dll
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter\myWaiter\bin\myWaiter.pdb
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+L:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+L:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+L:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+L:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter\myWaiter\bin\myWaiter.dll.config
+L:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter\myWaiter\bin\myWaiter.dll
+L:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter\myWaiter\bin\myWaiter.pdb
+C:\Users\zz\Desktop\myWaiter\myWaiter\myWaiter\bin\myWaiter.dll.config
+C:\Users\zz\Desktop\myWaiter\myWaiter\myWaiter\bin\myWaiter.dll
+C:\Users\zz\Desktop\myWaiter\myWaiter\myWaiter\bin\myWaiter.pdb
+C:\Users\zz\Desktop\myWaiter\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+C:\Users\zz\Desktop\myWaiter\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+C:\Users\zz\Desktop\myWaiter\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+C:\Users\Viviane\Videos\myWaiter\myWaiter\bin\myWaiter.dll.config
+C:\Users\Viviane\Videos\myWaiter\myWaiter\bin\myWaiter.dll
+C:\Users\Viviane\Videos\myWaiter\myWaiter\bin\myWaiter.pdb
+C:\Users\Viviane\Videos\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+C:\Users\Viviane\Videos\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+C:\Users\Viviane\Videos\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+C:\Users\zz\Desktop\myWaiter\myWaiterOficialBackup\myWaiter\myWaiter\bin\myWaiter.dll.config
+C:\Users\zz\Desktop\myWaiter\myWaiterOficialBackup\myWaiter\myWaiter\bin\myWaiter.dll
+C:\Users\zz\Desktop\myWaiter\myWaiterOficialBackup\myWaiter\myWaiter\bin\myWaiter.pdb
+C:\Users\zz\Desktop\myWaiter\myWaiterOficialBackup\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+C:\Users\zz\Desktop\myWaiter\myWaiterOficialBackup\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+C:\Users\zz\Desktop\myWaiter\myWaiterOficialBackup\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\backup com a Conta quase pronta\myWaiter\myWaiter\bin\myWaiter.dll.config
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\backup com a Conta quase pronta\myWaiter\myWaiter\bin\myWaiter.dll
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\backup com a Conta quase pronta\myWaiter\myWaiter\bin\myWaiter.pdb
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\backup com a Conta quase pronta\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\backup com a Conta quase pronta\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\backup com a Conta quase pronta\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter conta quase COMPLETA\myWaiter\myWaiter\bin\myWaiter.dll.config
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter conta quase COMPLETA\myWaiter\myWaiter\bin\myWaiter.dll
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter conta quase COMPLETA\myWaiter\myWaiter\bin\myWaiter.pdb
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter conta quase COMPLETA\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter conta quase COMPLETA\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter conta quase COMPLETA\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+C:\Users\zz\Desktop\myWaiter\myWaiter conta quase completa e Verificações\myWaiter\myWaiter\bin\myWaiter.dll.config
+C:\Users\zz\Desktop\myWaiter\myWaiter conta quase completa e Verificações\myWaiter\myWaiter\bin\myWaiter.dll
+C:\Users\zz\Desktop\myWaiter\myWaiter conta quase completa e Verificações\myWaiter\myWaiter\bin\myWaiter.pdb
+C:\Users\zz\Desktop\myWaiter\myWaiter conta quase completa e Verificações\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+C:\Users\zz\Desktop\myWaiter\myWaiter conta quase completa e Verificações\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+C:\Users\zz\Desktop\myWaiter\myWaiter conta quase completa e Verificações\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+C:\Users\pc\Downloads\myWaiter\myWaiter-conta-quase-completa-e-Verificações\myWaiter conta quase completa e Verificações\myWaiter\myWaiter\bin\myWaiter.dll.config
+C:\Users\pc\Downloads\myWaiter\myWaiter-conta-quase-completa-e-Verificações\myWaiter conta quase completa e Verificações\myWaiter\myWaiter\bin\myWaiter.dll
+C:\Users\pc\Downloads\myWaiter\myWaiter-conta-quase-completa-e-Verificações\myWaiter conta quase completa e Verificações\myWaiter\myWaiter\bin\myWaiter.pdb
+C:\Users\pc\Downloads\myWaiter\myWaiter-conta-quase-completa-e-Verificações\myWaiter conta quase completa e Verificações\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+C:\Users\pc\Downloads\myWaiter\myWaiter-conta-quase-completa-e-Verificações\myWaiter conta quase completa e Verificações\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+C:\Users\pc\Downloads\myWaiter\myWaiter-conta-quase-completa-e-Verificações\myWaiter conta quase completa e Verificações\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+L:\Alexandre\Lucas PC Gostoso\myWaiter\myWaiter\bin\myWaiter.dll.config
+L:\Alexandre\Lucas PC Gostoso\myWaiter\myWaiter\bin\myWaiter.dll
+L:\Alexandre\Lucas PC Gostoso\myWaiter\myWaiter\bin\myWaiter.pdb
+L:\Alexandre\Lucas PC Gostoso\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+L:\Alexandre\Lucas PC Gostoso\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+L:\Alexandre\Lucas PC Gostoso\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+C:\Users\zz\Desktop\Backup myWaiter teste com MessageBox\myWaiter\myWaiter\bin\myWaiter.dll.config
+C:\Users\zz\Desktop\Backup myWaiter teste com MessageBox\myWaiter\myWaiter\bin\myWaiter.dll
+C:\Users\zz\Desktop\Backup myWaiter teste com MessageBox\myWaiter\myWaiter\bin\myWaiter.pdb
+C:\Users\zz\Desktop\Backup myWaiter teste com MessageBox\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+C:\Users\zz\Desktop\Backup myWaiter teste com MessageBox\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+C:\Users\zz\Desktop\Backup myWaiter teste com MessageBox\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter conta completa e msgBox\myWaiter\myWaiter\bin\myWaiter.dll.config
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter conta completa e msgBox\myWaiter\myWaiter\bin\myWaiter.dll
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter conta completa e msgBox\myWaiter\myWaiter\bin\myWaiter.pdb
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter conta completa e msgBox\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter conta completa e msgBox\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter conta completa e msgBox\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+L:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter conta completa e msgBox FUNFANDO NA CONTA\myWaiter\myWaiter\bin\myWaiter.dll.config
+L:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter conta completa e msgBox FUNFANDO NA CONTA\myWaiter\myWaiter\bin\myWaiter.dll
+L:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter conta completa e msgBox FUNFANDO NA CONTA\myWaiter\myWaiter\bin\myWaiter.pdb
+L:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter conta completa e msgBox FUNFANDO NA CONTA\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+L:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter conta completa e msgBox FUNFANDO NA CONTA\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+L:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter conta completa e msgBox FUNFANDO NA CONTA\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+C:\Users\zz\Desktop\myWaiter\myWaiter conta completa e msgBox FUNFANDO NA CONTA\myWaiter\myWaiter\bin\myWaiter.dll.config
+C:\Users\zz\Desktop\myWaiter\myWaiter conta completa e msgBox FUNFANDO NA CONTA\myWaiter\myWaiter\bin\myWaiter.dll
+C:\Users\zz\Desktop\myWaiter\myWaiter conta completa e msgBox FUNFANDO NA CONTA\myWaiter\myWaiter\bin\myWaiter.pdb
+C:\Users\zz\Desktop\myWaiter\myWaiter conta completa e msgBox FUNFANDO NA CONTA\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+C:\Users\zz\Desktop\myWaiter\myWaiter conta completa e msgBox FUNFANDO NA CONTA\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+C:\Users\zz\Desktop\myWaiter\myWaiter conta completa e msgBox FUNFANDO NA CONTA\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+C:\Users\zz\Desktop\myWaiter\myWaiter conta completa msgBox e COZINHA\myWaiter\myWaiter\bin\myWaiter.dll.config
+C:\Users\zz\Desktop\myWaiter\myWaiter conta completa msgBox e COZINHA\myWaiter\myWaiter\bin\myWaiter.dll
+C:\Users\zz\Desktop\myWaiter\myWaiter conta completa msgBox e COZINHA\myWaiter\myWaiter\bin\myWaiter.pdb
+C:\Users\zz\Desktop\myWaiter\myWaiter conta completa msgBox e COZINHA\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+C:\Users\zz\Desktop\myWaiter\myWaiter conta completa msgBox e COZINHA\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+C:\Users\zz\Desktop\myWaiter\myWaiter conta completa msgBox e COZINHA\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+C:\Users\Viviane\Music\myWaiter conta completa msgBox e COZINHA\myWaiter\myWaiter\bin\myWaiter.dll.config
+C:\Users\Viviane\Music\myWaiter conta completa msgBox e COZINHA\myWaiter\myWaiter\bin\myWaiter.dll
+C:\Users\Viviane\Music\myWaiter conta completa msgBox e COZINHA\myWaiter\myWaiter\bin\myWaiter.pdb
+C:\Users\Viviane\Music\myWaiter conta completa msgBox e COZINHA\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+C:\Users\Viviane\Music\myWaiter conta completa msgBox e COZINHA\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+C:\Users\Viviane\Music\myWaiter conta completa msgBox e COZINHA\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+C:\Users\pc\Desktop\myWaiter-Completo-conta-e-cozinha-OK\myWaiter Completo - conta e cozinha OK\myWaiter\myWaiter\bin\myWaiter.dll.config
+C:\Users\pc\Desktop\myWaiter-Completo-conta-e-cozinha-OK\myWaiter Completo - conta e cozinha OK\myWaiter\myWaiter\bin\myWaiter.dll
+C:\Users\pc\Desktop\myWaiter-Completo-conta-e-cozinha-OK\myWaiter Completo - conta e cozinha OK\myWaiter\myWaiter\bin\myWaiter.pdb
+C:\Users\pc\Desktop\myWaiter-Completo-conta-e-cozinha-OK\myWaiter Completo - conta e cozinha OK\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\myWaiter-Completo-conta-e-cozinha-OK\myWaiter Completo - conta e cozinha OK\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+C:\Users\pc\Desktop\myWaiter-Completo-conta-e-cozinha-OK\myWaiter Completo - conta e cozinha OK\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+C:\Users\zz\Desktop\myWaiter-Completo-conta-e-cozinha-OK\myWaiter Completo - conta e cozinha OK\myWaiter\myWaiter\bin\myWaiter.dll.config
+C:\Users\zz\Desktop\myWaiter-Completo-conta-e-cozinha-OK\myWaiter Completo - conta e cozinha OK\myWaiter\myWaiter\bin\myWaiter.dll
+C:\Users\zz\Desktop\myWaiter-Completo-conta-e-cozinha-OK\myWaiter Completo - conta e cozinha OK\myWaiter\myWaiter\bin\myWaiter.pdb
+C:\Users\zz\Desktop\myWaiter-Completo-conta-e-cozinha-OK\myWaiter Completo - conta e cozinha OK\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+C:\Users\zz\Desktop\myWaiter-Completo-conta-e-cozinha-OK\myWaiter Completo - conta e cozinha OK\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+C:\Users\zz\Desktop\myWaiter-Completo-conta-e-cozinha-OK\myWaiter Completo - conta e cozinha OK\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter TERMINADO para documentação\myWaiter\myWaiter\bin\myWaiter.dll.config
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter TERMINADO para documentação\myWaiter\myWaiter\bin\myWaiter.dll
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter TERMINADO para documentação\myWaiter\myWaiter\bin\myWaiter.pdb
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter TERMINADO para documentação\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter TERMINADO para documentação\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+F:\Alexandre\myWaiterTCC\myWaiter - Programação\myWaiter TERMINADO para documentação\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
+C:\Users\zz\Desktop\Arquivos myWaiter e estudo\myWaiter\myWaiter TERMINADO para documentação\myWaiter\myWaiter\bin\myWaiter.dll.config
+C:\Users\zz\Desktop\Arquivos myWaiter e estudo\myWaiter\myWaiter TERMINADO para documentação\myWaiter\myWaiter\bin\myWaiter.dll
+C:\Users\zz\Desktop\Arquivos myWaiter e estudo\myWaiter\myWaiter TERMINADO para documentação\myWaiter\myWaiter\bin\myWaiter.pdb
+C:\Users\zz\Desktop\Arquivos myWaiter e estudo\myWaiter\myWaiter TERMINADO para documentação\myWaiter\myWaiter\obj\Debug\myWaiter.csprojResolveAssemblyReference.cache
+C:\Users\zz\Desktop\Arquivos myWaiter e estudo\myWaiter\myWaiter TERMINADO para documentação\myWaiter\myWaiter\obj\Debug\myWaiter.dll
+C:\Users\zz\Desktop\Arquivos myWaiter e estudo\myWaiter\myWaiter TERMINADO para documentação\myWaiter\myWaiter\obj\Debug\myWaiter.pdb
