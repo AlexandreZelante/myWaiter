@@ -1,0 +1,120 @@
+﻿body{
+    font-family:'Century Gothic';
+    font-size:1em;
+    background-color:#5B2928;
+}
+
+.back{
+    position:fixed;
+    transition:all ease 1s;
+    float:left;
+}
+
+.white{
+    padding:5%;
+    width:80%;
+    margin:auto;
+    background-color:white;
+    align-items:center;
+    
+    font-family:'Malgun Gothic';
+}
+
+.grid{
+    font-size:1.01em;
+}
+
+#header
+{
+    position:relative;
+    background:white;
+    border-radius:50px;
+    font-size:3em;
+    width:80%;
+    height:20%;
+    margin:auto;
+    padding:1%;
+    text-align:center;
+    transition:all ease 0.5s;
+    font-family: Century Gothic, sans-serif;
+}
+
+#Operacoes{
+    width:80%;
+    height:80%;
+    background-color:#C6C2C1;
+    margin:auto;
+    position:relative;
+    padding:1%;
+    text-align:center;
+}
+
+.oper{
+    background-color:#808080;
+    width:20%;
+    height:80%;
+    position:relative;
+    display:inline-block;
+    margin:auto;
+    padding:4%;
+    text-align:center;
+    text-decoration:none;
+    color:black;
+    transition:all ease 1s;
+}
+
+.link:visited, .link{
+    text-decoration:none;
+    color:black;
+}
+
+.oper:hover{
+    background-color:white;
+    transform:scale(1.1,1.1);
+    border-radius:50px;
+}
+
+#Form
+{
+    width:80%;
+    height:80%;
+    background-color:#c6c2c1;
+    margin:auto;
+    position:relative;
+    padding:1%;
+}
+
+#imgMesas ul{
+    float: left;
+    display: block;
+    border: medium none;
+    font-size: 10px;
+    list-style: outside none none;
+}
+
+#imgMesas ul li{
+    display: inline;
+    margin-bottom:100px;
+}
+
+.lblIdMesa{
+    font-family:'Century Gothic';
+    font-size:30px;
+    position:relative;
+    color:white;
+    left:-150px;
+    top:-90px;
+}
+
+#Form table tr td{
+    padding:5px;
+}
+
+#gvPedido{
+    position:relative;
+    margin-top:50px;
+}
+
+.bold{
+    font-weight:bold;
+}

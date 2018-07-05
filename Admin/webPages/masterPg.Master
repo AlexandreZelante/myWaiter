@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterPg.master.cs" Inherits="myWaiter.Admin.webPages.masterPg" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="~/Admin/links/css.css" />
+    <link rel="stylesheet" type="text/css" href="~/Admin/links/operCss.css" />
+    <script src="../../jquery-1.11.3.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <a href="javascript: history.go(-1)"><asp:Image ImageUrl="~/Admin/srcs/Back_arrow_64.png" runat="server" ID="voltar" CssClass="back" /></a>
+        <asp:ContentPlaceHolder ID="Contents" runat="server">        </asp:ContentPlaceHolder>
+        
+    </div>
+    </form>
+</body>
+</html>

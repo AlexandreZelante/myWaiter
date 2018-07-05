@@ -1,0 +1,23 @@
+﻿body{
+    background-color:#5B2928;
+}
+
+.tableCozinha{
+    width:400px;
+    background-color:red;
+    font-family:'Century Gothic';
+    color:white;
+    font-size:22px;
+    margin-left:30%;
+    margin-top:25px;
+    border-radius:15px;
+}
+
+.tableCozinha tr:nth-child(2){
+   text-align:center;
+}
+.tdMesa{
+    background-color:darkred;
+    border-radius:15px;
+    text-align:center;
+}

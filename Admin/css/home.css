@@ -1,0 +1,133 @@
+﻿#logo{
+    width:100%;
+    margin:auto;
+    text-align:center;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color:#5B2928;
+    font-family:'Century Gothic';
+}
+
+.label{
+    font-family:'Century Gothic';
+    color:red;
+    font-style:oblique;
+}
+
+#footer{
+    position:static;
+    margin:auto;
+	padding:1%;
+	height:10%;
+    width:80%;
+}
+
+#footer ul{
+    float:left;
+	display:block;
+	border:none;
+	font-size:1em;
+}
+
+#footer ul li{
+    display:inline;
+	color:#cc9900;
+}
+
+
+#footer ul li:after{
+    content: " •";
+}
+
+#footer ul li:last-child:after{
+    content:"";
+}
+
+#footer a{
+    text-decoration:none;
+    color:#cc9900;
+}
+
+a:visited{
+    color:#003399;
+}
+
+#formSection{
+    border-radius:20px;
+    background-color:#C6C2C1;
+    color:white;
+    width:35%;
+    margin:auto;
+    text-align:center;
+}
+
+#formSection table{
+    text-align:right;
+}
+
+#txtUser{
+    position:relative;
+    background:transparent;
+    border:0;
+    color:#5B2928;
+    top:-36px;
+    left:42px;
+    Height:23px;
+    Width:230px;
+    font-size:1.2em;
+}
+
+#txtPass{
+    position:relative;
+    background:transparent;
+    border:0;
+    color:#5B2928;
+    top:-38px;
+    left:44px;
+    Height:23px;
+    Width:230px;
+    font-size:1.2em;
+}
+
+#lane{
+    height:20px;
+    border-style:solid;
+    border-color:#5B2928;
+    border-width:1px 0 0 0;
+    border-radius:10px;
+}
+
+#msgBox{
+    visibility:hidden;
+    z-index:9999999;
+    width:40%;
+    background-color:white;
+    border-radius:10px;
+    position:fixed;
+    top:40%;
+    right:30%;
+    transition:all ease 1s;
+}
+
+#head{
+    position:relative;
+    margin:0px;
+    padding-left:10px;
+    font-size:2.4em;
+    border-radius:10px;
+    background-color:#343434;
+    color:white;
+}
+
+#body{
+    padding-left:10px;
+}
+
+#feet{
+    padding:10px;
+    border-radius:10px;
+    text-align:right;
+}

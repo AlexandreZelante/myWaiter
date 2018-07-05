@@ -1,0 +1,87 @@
+﻿#bkg{
+    height:100%;
+    width:100%;
+    background-image: url('../srcs/logoIco.png');
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    position:fixed;
+    opacity:0.6;
+    z-index:-1;
+}
+
+body{
+    background-color:#5B2928;
+}
+
+#header
+{
+    position:relative;
+    background:white;
+    border-radius:50px;
+    font-size:3em;
+    width:80%;
+    height:20%;
+    margin:auto;
+    padding:1%;
+    text-align:center;
+    transition:all ease 0.5s;
+    font-family: Century Gothic, sans-serif;
+}
+
+#header h1{
+    padding-left:10%;
+}
+
+#main {
+    color:lightyellow;
+    height:70%;
+    width:80%;
+    margin:10% 0 0 20%;
+}
+
+#main table{
+    font-family:Gabriola;
+    font-size:2em;
+}
+
+.label{
+    font-family:Gabriola;
+    font-size:1.3em;
+}
+
+#footer{
+    position:static;
+    margin:auto;
+	padding:1%;
+	height:10%;
+    width:80%;
+}
+
+#footer ul{
+    float:left;
+	display:block;
+	border:none;
+	font-size:1em;
+}
+
+#footer ul li{
+    display:inline;
+	color:#cc9900;
+}
+
+#footer ul li:after{
+    content: "•";
+}
+
+#footer ul li:last-child:after{
+    content:"";
+}
+
+#footer a{
+    text-decoration:none;
+    color:#cc9900;
+}
+
+a:visited{
+    color:#003399;
+}
