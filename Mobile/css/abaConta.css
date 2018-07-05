@@ -1,0 +1,155 @@
+﻿#wrapperPedido{
+    width:1024px;
+    height:524px;
+    position:absolute;
+}
+
+#divBarraCentral{
+    background:url('../images/paginaPedidos/barraCentral.png');
+    width:677px;
+    height:524px;
+    margin-left:25px;
+    float:left;
+    position:absolute;
+    overflow:auto;
+}
+
+#divBarraNomes{
+    background:url('../images/paginaPedidos/barraLateral.fw.png');
+    width:297px;
+    height:524px;
+    margin-right:0px;
+    margin-left:727px;
+    position:absolute;
+}
+
+#divNomes{
+    width:297px;
+    height:381px;  
+    overflow:auto;
+    font-family:'Century Gothic';
+    font-size:20px;
+    color:white;
+}
+
+#divBotao{
+    width:297px;
+    height:142px;
+}
+
+.btn{
+    margin-top:32px;
+    margin-left:30px;
+}
+
+
+/*Parte das tabelas da Conta*/
+
+.tabelaConta{
+    width:630px;
+    background-color:#BF2C2C;
+    font-family:'Century Gothic';
+    font-size:16px;
+    color:white;
+    border-radius:15px;
+    display: inline-block;
+    margin-left:25px;
+    margin-top:10px;
+}
+
+.tabelaConta td{
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+.tdNome{
+    background-color:#790F0F;
+    border-radius:8px;
+    height:30px;
+    width: 630px;
+}
+
+.auto-style1 {
+    width: 512px;
+}
+
+/*Parte da barra dos nomes*/
+
+.tabelaContaComanda{
+    width:285px;
+    height:50px;
+    font-family:'Century Gothic';
+    font-size:16px;
+    color:white;
+    margin-top:10px;
+    margin-left:6px;
+}
+
+.nomePreco{
+    width:225px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+/*Message Box*/
+
+.msgBoxProduto{
+    visibility:hidden;
+    z-index:9999;
+    width:497px;
+    height:278px;
+    background:url('../images/msgBox/fundoComAvisoECaixa.fw.png') no-repeat;
+    position:fixed;
+    top:170px;
+    margin-left:270px;
+}
+
+.msgBoxConta{
+    visibility:hidden;
+    z-index:9999;
+    width:497px;
+    height:278px;
+    background:url('../images/msgBox/fundoComAvisoECaixa.fw.png') no-repeat;
+    position:fixed;
+    top:170px;
+    margin-left:270px;
+}
+
+.garcomMsgBox{
+   float:left;
+   margin-top:76px;
+   margin-left:5px;
+}
+
+.msgText{
+    width:338px;
+    height:107px;
+    margin-left:136px;
+    margin-top:78px;
+    word-break:break-all;
+    padding-left:2px;
+    font-family:'Century Gothic';
+    font-size:16px;
+}
+
+.btnCancellBox{
+    margin-top:20px;
+    margin-left:10px;
+}
+
+.btnOkBox{
+    position:absolute;
+    z-index:1000;
+    top:205px;
+    margin-left:35px;
+}
+
+.visible{
+    visibility:visible;
+}
+
+.hidden{
+    visibility:hidden;
+}

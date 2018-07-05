@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterHeader.master.cs" Inherits="myWaiter.MasterHeader" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>myWaiter</title>
+
+    <link href="../css/barraUsuario.css" rel="stylesheet" runat="server" />
+    <link href="../css/master.css" rel="stylesheet" runat="server" />
+
+</head>
+<body class="menu">
+    <form id="form1" runat="server">
+        <div id="wrapper">
+
+            <div id="header">
+                <ul id="nav">
+                    <li>
+                        <asp:ImageButton ID="btnCardapio" runat="server" ImageUrl="~/Mobile/images/master/botaoCardapio1.fw.png" PostBackUrl="~/Mobile/Pages/produtosCategoria.aspx" /></li>
+                    <li>
+                        <asp:ImageButton ID="btnPedido" runat="server" ImageUrl="~/Mobile/images/pedido/0.fw.png" PostBackUrl="~/Mobile/Pages/Pedidos.aspx" /></li>
+                    <li>
+                        <asp:ImageButton ID="btnConta" runat="server" ImageUrl="~/Mobile/images/master/botaoConta.fw.png" PostBackUrl="~/Mobile/Pages/Conta.aspx" /></li>
+                </ul>
+
+                <table id="tableCurrents">
+                    <tr>
+                        <td class="breakworkd">
+                            <asp:Label ID="lblCurrentUser" runat="server" Text="To aqui!" CssClass="classCurrentUser"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Label ID="lblCurrentMesa" runat="server" Text="To aqui!" CssClass="current"></asp:Label>
+                        </td>
+                    </tr>
+                </table>
+
+
+                <input type="checkbox" id="toggler" name="" value="">
+                    <div class="another-toggle">
+                        <label for="toggler" class="menu-toggle">☰ <span style="font-size: 22px; font-family: 'Century Gothic'">Usuários</span></label>
+                        <nav class="user-menu">
+                            <h1>Selecione o usuário</h1>
+                            <div id="divBarraNomesUsuarios">
+                                <ul runat="server" id="ulNomes">
+                                </ul>
+                            </div>
+
+                            <div id="divAddComanda">
+                                <asp:ImageButton ID="btnAddComanda" runat="server" ImageUrl="~/Mobile/images/master/addcomanda.fw.png" PostBackUrl="~/Mobile/Pages/paginaComandas.aspx" />
+                            </div>
+                        </nav>
+                    </div>
+                </input>
+
+            </div>
+
+            <div id="contentMain">
+                <asp:ContentPlaceHolder ID="ContentMain" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>

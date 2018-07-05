@@ -1,0 +1,142 @@
+﻿body{
+    margin:0px;
+}
+
+#backgroundComanda{
+    height:600px;
+    width:1024px;
+    background:url('../images/paginaComandas/fundoPaginaComandasAtt.fw.png');
+}
+
+
+
+/*A barra verde escrita Usuario*/
+#barraUsuario {
+    float:left;
+    width: 235px;
+    height: 57px;
+    margin-top: 10px;
+    margin-left:40px;
+}
+
+/*A label que é escrita usuário*/
+#lblUsuario {
+        font-family: 'Century Gothic';
+        font-weight: bold;
+        color:white;
+        font-size: 34px;
+        margin-left: 44px;
+}
+
+
+
+/*A div dos botões*/
+#divBotoes {
+    clear:left;
+    height: 500px;
+    width:325px;
+    float:left;
+    margin-left:0;
+    margin-top:30px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+/*Classe dos botões*/
+.botoes { 
+    color:white;
+    font-family: 'Century Gothic';
+    font-size:20px;
+    border-radius:15px; /*Arrendodamento das bordas*/
+    width:240px;
+    height:45px;
+    background-color: red;
+}
+
+
+#logo{
+    float:right;
+    background:url('../images/paginaComandas/logoMyWaiter.fw.png') no-repeat;
+    width:250px;
+    height:230px;
+    margin-right:283px;
+    margin-top:50px;
+    margin-bottom:10px;
+}
+
+#txtbtn{
+    float:right;
+    clear:right;
+    width:295px;
+    height:80px;
+    margin-right:240px;
+}
+
+.tdBtnExcluir{
+    padding-top:13px;
+}
+
+.tableCriarComandas{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+/*Text Box nome*/
+#txtNome {
+    background:url('../images/paginaComandas/txtNome.png') no-repeat;
+    width:226px;
+    height:29px;
+    margin-left:20px;
+    border-radius:10px;
+    border:0;
+}
+
+#btnAdd2{
+   position:absolute;
+}
+
+/*message box*/
+
+#msgBoxComanda{
+    visibility:hidden;
+    z-index:99999;
+    width:497px;
+    height:278px;
+    background:url('../images/msgBox/fundoComAvisoECaixa.fw.png') no-repeat;
+    position:fixed;
+    top:160px;
+    left:280px;
+}
+
+.garcomMsgBox{
+   float:left;
+   margin-top:76px;
+   margin-left:5px;
+}
+
+.msgText{
+    width:338px;
+    height:107px;
+    margin-left:136px;
+    margin-top:78px;
+    word-break:break-all;
+    padding-left:2px;
+    font-family:'Century Gothic';
+    font-size:20px;
+}
+
+#btnCancelar{
+    margin-top:20px;
+    margin-left:10px;
+}
+
+#btnOk{
+    margin-left:35px;
+}
+

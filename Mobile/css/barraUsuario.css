@@ -1,0 +1,71 @@
+﻿.menu{
+	overflow-x:hidden;
+	position:relative;
+	left:0;
+}
+
+#toggler{
+	display:none;
+}
+
+#toggler:checked + .another-toggle .user-menu {
+	left:0%;
+}
+
+#toggler:checked + .another-toggle .menu-toggle {
+	left:20%;
+}
+
+.menu-toggle{
+	position:fixed;
+	left:2%;
+	top:2%;
+	text-decoration:none;
+	color:white;
+	z-index:101;
+	font-size:2.2em;
+	transition:all 0.5s;
+	cursor:pointer;
+}
+
+.user-menu{
+    text-decoration:none;
+	background-color:darkred;   
+    color:white;
+	position: fixed;
+    top: 0px;
+    left: -17%;
+    width: 15%;
+    height: 100%;
+    padding: 1%;
+	z-index:100;
+	font-family:"Century Gothic", Century;
+	transition:all 0.5s;
+}
+
+.user-menu li{
+    text-decoration:none;
+	margin-bottom:5%;
+	color:rgba(255,255,255,0.8);
+	transition:all 0.2s;
+	cursor:pointer;
+}
+
+#divBarraNomesUsuarios{
+    height:350px;
+    width:150px;
+    word-wrap:break-word;
+    overflow-y:auto;
+}
+
+#divAddComanda{
+    height:115px;
+    width:150px;
+    padding-top:40px;
+    padding-left:8px;
+}
+
+
+
+
+

@@ -1,0 +1,38 @@
+﻿/*message box*/
+
+#msgBoxProduto{
+    visibility:hidden;
+    z-index:99999;
+    width:497px;
+    height:278px;
+    background:url('../images/msgBox/fundoComAvisoECaixa.fw.png') no-repeat;
+    position:fixed;
+    top:15px;
+    margin-left:210px;
+}
+
+.garcomMsgBox{
+   float:left;
+   margin-top:76px;
+   margin-left:5px;
+}
+
+.msgText{
+    width:338px;
+    height:107px;
+    margin-left:136px;
+    margin-top:78px;
+    word-break:break-all;
+    padding-left:2px;
+    font-family:'Century Gothic';
+    font-size:22px;
+}
+
+.btnCancellBox{
+    margin-top:20px;
+    margin-left:10px;
+}
+
+.btnOkBox{
+    margin-left:35px;
+}

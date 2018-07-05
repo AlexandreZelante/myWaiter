@@ -1,0 +1,134 @@
+﻿#wrapperPedido{
+    width:1024px;
+    height:524px;
+    position:absolute;
+}
+
+#divBarraCentral{
+    background:url('../images/paginaPedidos/barraCentral.png');
+    width:677px;
+    height:524px;
+    margin-left:25px;
+    float:left;
+    position:absolute;
+    overflow:auto;
+}
+
+#divBarraNomes{
+    background:url('../images/paginaPedidos/barraLateral.fw.png');
+    width:297px;
+    height:524px;
+    margin-right:0px;
+    margin-left:727px;
+    position:absolute;
+}
+
+#divNomes{
+    width:297px;
+    height:381px;  
+    overflow:auto;
+    font-family:'Century Gothic';
+    font-size:20px;
+    color:white;
+}
+
+#divBotao{
+    width:297px;
+    height:142px;
+}
+
+.btn{
+    margin-top:32px;
+    margin-left:45px;
+}
+
+
+/*Parte das tabelas dos Pedidos*/
+
+.auto-style1 {
+            height: 30px;
+        }
+        .auto-style2 {
+            width: 136px;
+        }
+        .auto-style3 {
+            width: 235px;
+        }
+
+.tablePedido{
+    width:315px;
+    height:200px;
+    background-color:#BF2C2C;
+    border-radius:10px;
+    margin-left:11px;
+    margin-top:10px;
+    display: inline-block;
+    font-family:'Century Gothic';
+    font-size:16px;
+    color:white;
+}
+
+.nomeUserTeste{
+    background-color:#790F0F;
+}
+
+
+.imagemProduto{
+    width:140px;
+    height:135px;
+    padding-top:15px;
+    padding-left:10px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+/*Parte da barra dos nomes*/
+
+ul{
+    list-style:none;
+}
+
+ul li{
+    margin-bottom:10px
+}
+
+/*Message Box*/
+
+#msgBoxProduto{
+    visibility:hidden;
+    z-index:99999;
+    width:497px;
+    height:278px;
+    background:url('../images/msgBox/fundoComAvisoECaixa.fw.png') no-repeat;
+    position:fixed;
+    top:170px;
+    margin-left:270px;
+}
+
+.garcomMsgBox{
+   float:left;
+   margin-top:76px;
+   margin-left:5px;
+}
+
+.msgText{
+    width:338px;
+    height:107px;
+    margin-left:136px;
+    margin-top:78px;
+    word-break:break-all;
+    padding-left:2px;
+    font-family:'Century Gothic';
+    font-size:18px;
+}
+
+.btnCancellBox{
+    margin-top:20px;
+    margin-left:10px;
+}
+
+.btnOkBox{
+    margin-left:35px;
+}

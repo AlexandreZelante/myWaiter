@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" MasterPageFile="MasterHeader.Master" AutoEventWireup="true" CodeBehind="MasterCategoria.master.cs" Inherits="myWaiter.MasterCategoria" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentMain" runat="server">
+
+    <link href="../css/contentCardapio.css" rel="stylesheet" runat="server" />
+
+    <div id="masterCategoria">
+        <div id="wrapperCategoria">
+            <div class="categorias">
+                <asp:ImageButton ID="btnSalada" runat="server" ImageUrl="~/Mobile/images/categorias/salada.png" OnClick="btnSalada_Click" />
+            </div>
+
+            <div class="categorias">
+                <asp:ImageButton ID="btnBebida" runat="server" ImageUrl="~/Mobile/images/categorias/bebida.png" OnClick="btnBebida_Click" />
+            </div>
+
+            <div class="categorias">
+                <asp:ImageButton ID="btnPrato" runat="server" ImageUrl="~/Mobile/images/categorias/pratos.png" OnClick="btnPrato_Click" />
+            </div>
+
+            <div class="categorias">
+                <asp:ImageButton ID="btnBurger" runat="server" ImageUrl="~/Mobile/images/categorias/burger.png" OnClick="btnBurger_Click" />
+            </div>
+
+            <div class="categorias">
+                <asp:ImageButton ID="btnPorcao" runat="server" ImageUrl="~/Mobile/images/categorias/porcao.png" OnClick="btnPorcao_Click" />
+            </div>
+
+            <div class="categorias">
+                <asp:ImageButton ID="btnPeixe" runat="server" ImageUrl="~/Mobile/images/categorias/peixe.png" OnClick="btnPeixe_Click" />
+            </div>
+
+            <div class="categorias">
+                <asp:ImageButton ID="btnSanduiche" runat="server" ImageUrl="~/Mobile/images/categorias/sanduiche.png" OnClick="btnSanduiche_Click" />
+            </div>
+
+            <div class="categorias">
+                <asp:ImageButton ID="btnMassa" runat="server" ImageUrl="~/Mobile/images/categorias/pasta.png" OnClick="btnMassa_Click" />
+            </div>
+
+            <div class="categorias">
+                <asp:ImageButton ID="btnGrelhado" runat="server" ImageUrl="~/Mobile/images/categorias/grelhado.png" OnClick="btnGrelhado_Click" />
+            </div>
+
+            <div class="categorias">
+                <asp:ImageButton ID="btnSobremesa" runat="server" ImageUrl="~/Mobile/images/categorias/sobremesa.png" OnClick="btnSobremesa_Click" />
+            </div>
+        </div>        
+    </div>
+
+    <div id="mainConteudos">      
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderConteudos" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>

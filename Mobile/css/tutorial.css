@@ -1,0 +1,90 @@
+﻿body{
+    margin: 0px;
+}
+
+#background1 {
+    height:600px;
+    width:1024px;
+    background:url('../images/pagina1/fundoPagina1Oficial.fw.png');
+}
+
+#ImageButton1{
+    margin-left:350px;
+    margin-top:235px;
+}
+
+#ImageButton2{
+    margin-top:280px;
+    margin-left:9px;
+}
+
+#background2{
+    height:600px;
+    width:1024px;
+    background:url('../images/pagina2/fundoPagina2OficialLogoMyWaiter.fw.png');
+}
+
+#btnVoltar{  
+    float:left;
+    margin-left:350px;
+    margin-top:470px;
+}
+
+#btnAvancar{
+    float:right; 
+    margin-right:75px;
+    margin-top:470px;
+}
+
+#background3{
+    height:600px;
+    width:1024px;
+    background:url('../images/pagina3/fundoPagina3OficialLogoMyWaiter.fw.png');
+}
+
+#tela{
+    height:600px;
+    width:1024px;
+    background:url('../images/pagina1/telaObrigado.fw.png')
+}
+
+
+/*MessageBox*/
+
+#msgBoxComanda{
+    visibility:hidden;
+    z-index:99999;
+    width:497px;
+    height:278px;
+    background:url('../images/msgBox/fundoComAvisoECaixa.fw.png') no-repeat;
+    position:fixed;
+    top:160px;
+    left:280px;
+}
+
+.garcomMsgBox{
+   float:left;
+   margin-top:76px;
+   margin-left:5px;
+}
+
+.msgText{
+    width:338px;
+    height:107px;
+    margin-left:136px;
+    margin-top:78px;
+    word-break:break-all;
+    padding-left:2px;
+    font-family:'Century Gothic';
+    font-size:20px;
+}
+
+#btnCancelar{
+    margin-top:20px;
+    margin-left:10px;
+}
+
+#btnOk{
+    margin-left:35px;
+}
+

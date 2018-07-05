@@ -1,0 +1,122 @@
+﻿/*Configuração do menu de Categorias*/
+
+#masterCategoria {
+    width: 1024px;
+    height: 97px;
+    background: url('../images/master/masterCategoria.png') no-repeat;
+    margin-top: 0px;
+}
+
+#wrapperCategoria { 
+    width: 855px;
+    height: 97px;
+    margin-left:85px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    overflow-x:scroll;
+    position:absolute;
+}
+
+.categorias{
+    width:168px;
+    height:85px;
+    margin: 0 5px 0 0;
+    position: relative;
+    display: inline-block;
+    margin-top:5px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+/*Configuração da div mainConteudo*/
+#mainConteudos {
+    width: 858px;
+    height: 427px;
+    background: url('../images/master/divMainStrong.fw.png') repeat-y;
+    margin-left: 82px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+/*::-webkit-scrollbar { 
+    display: none; 
+}*/
+
+/*Parte dos botões tabela*/
+
+.tableProduto {
+    border: 1px solid black;
+    border-radius:10px;
+    height:115px;
+    width:830px;
+    background-color: #990000;
+    color:white;
+    margin-top:3px;
+    margin-bottom:3px;
+    margin-left:14px;
+}
+
+    .tableProduto img {
+        width:144px;
+        height:100px;
+        border-radius:5px;
+    }
+
+.divTexto {
+    width:540px;
+    height:70px;
+    word-wrap:break-word;
+    margin:auto;
+}
+
+.nomeProdTab{
+    font-weight:bold;
+    font-size:22px;
+    font-family:'Century Gothic';
+}
+
+.precoProdTab{
+    font-weight:bold;
+    font-size:18px;
+}
+
+/*Parte do Produto sozinho*/
+
+#tabelaProdutoSozinho{
+    width: 858px;
+    height: 427px;
+    word-wrap:break-word;
+    padding-top:10px;
+}
+
+.imagem{
+    width: 310px;
+    height: 375px;
+    padding-left:10px;
+    border-radius:20px;
+}
+
+#divTextoProd{
+    width:320px;
+    word-wrap:break-word;
+    margin:auto;
+}
+
+#divQtde{
+    height:209px;
+}
+
+#txtNumero{
+    border-radius:20px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.textoProduto{
+    font-size:30px;
+    font-family:'Century Gothic';
+}
