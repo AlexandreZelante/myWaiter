@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{873BB20A-9D43-4B44-BB32-C7EBE297DF1D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>myWaiter</RootNamespace>
+    <AssemblyName>myWaiter</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\css\home.css" />
+    <Content Include="Admin\Home\Home.aspx" />
+    <Content Include="Admin\Home\images\barra.fw.png" />
+    <Content Include="Admin\Home\images\btnOk.fw.png" />
+    <Content Include="Admin\Home\images\logo.fw.png" />
+    <Content Include="Admin\Home\images\txtLogin.fw.png" />
+    <Content Include="Admin\Home\images\txtSenha.fw.png" />
+    <Content Include="Admin\links\addStyle.css" />
+    <Content Include="Admin\links\css.css" />
+    <Content Include="Admin\links\mesasCss.css" />
+    <Content Include="Admin\links\operCss.css" />
+    <Content Include="Admin\srcs\add30.png" />
+    <Content Include="Admin\srcs\Back_arrow_64.png" />
+    <Content Include="Admin\srcs\Conta.png" />
+    <Content Include="Admin\srcs\eye22.png" />
+    <Content Include="Admin\srcs\magnifying-glass32.png" />
+    <Content Include="Admin\srcs\Menu_256.png" />
+    <Content Include="Admin\srcs\Mesa.png" />
+    <Content Include="Admin\srcs\mesagreen.fw.png" />
+    <Content Include="Admin\srcs\mesared.fw.png" />
+    <Content Include="Admin\srcs\pencil125.png" />
+    <Content Include="Admin\srcs\Verified_checkbox_symbol_256.png" />
+    <Content Include="Admin\webPages\adicionarProdutos.aspx" />
+    <Content Include="Admin\webPages\editarProdutos.aspx" />
+    <Content Include="Admin\webPages\editarProdutoSelecionado.aspx" />
+    <Content Include="Admin\webPages\mainAdmin.aspx" />
+    <Content Include="Admin\webPages\mesasAdmin.aspx" />
+    <Content Include="Admin\webPages\pedidosAdmin.aspx" />
+    <Content Include="Admin\webPages\produtosHome.aspx" />
+    <Content Include="Admin\webPages\visualizarProdutos.aspx" />
+    <Content Include="Admin\srcs\btnPreparado2.fw.png" />
+    <Content Include="Admin\links\cozinha.css" />
+    <Content Include="Admin\webPages\visualizarProdutoSelecionado.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="imagens_Produto\0003376_refrigerante-soda-limonada-antarctica-350ml-lata.png" />
+    <Content Include="imagens_Produto\0003386_refrigerante-pepsi-350ml-lata.png" />
+    <Content Include="imagens_Produto\Azeitona.jpg" />
+    <Content Include="imagens_Produto\barbecue-burger.jpg" />
+    <Content Include="imagens_Produto\batata-frita.jpg" />
+    <Content Include="imagens_Produto\beirute-america.jpg" />
+    <Content Include="imagens_Produto\burger-patriota.jpg" />
+    <Content Include="imagens_Produto\caesar-burger.jpg" />
+    <Content Include="imagens_Produto\caesar-pasta.jpg" />
+    <Content Include="imagens_Produto\california.jpg" />
+    <Content Include="imagens_Produto\Caprese.jpg" />
+    <Content Include="imagens_Produto\carpaccio-america.jpg" />
+    <Content Include="imagens_Produto\Cereja.jpg" />
+    <Content Include="imagens_Produto\cerveja-budweiser.jpg" />
+    <Content Include="imagens_Produto\cheeseburger-salada-america.jpg" />
+    <Content Include="imagens_Produto\chicken-light.jpg" />
+    <Content Include="imagens_Produto\Chicoria.jpg" />
+    <Content Include="imagens_Produto\churrasquinho-na-baguete.jpg" />
+    <Content Include="imagens_Produto\coca_cola_lata.jpg" />
+    <Content Include="imagens_Produto\dallas.jpg" />
+    <Content Include="imagens_Produto\fettuccine.jpg" />
+    <Content Include="imagens_Produto\grilled-salmon.jpg" />
+    <Content Include="imagens_Produto\h2oh.jpg" />
+    <Content Include="imagens_Produto\italian-style.jpg" />
+    <Content Include="imagens_Produto\liberty.jpg" />
+    <Content Include="imagens_Produto\mexican-italian.jpg" />
+    <Content Include="imagens_Produto\minuano.jpg" />
+    <Content Include="imagens_Produto\saint-peter.jpg" />
+    <Content Include="imagens_Produto\salada-oriental.jpg" />
+    <Content Include="imagens_Produto\salmon-light.jpg" />
+    <Content Include="imagens_Produto\salmon-pasta.jpg" />
+    <Content Include="imagens_Produto\Simples.jpg" />
+    <Content Include="imagens_Produto\stroga.jpg" />
+    <Content Include="imagens_Produto\suco de abacaxi.jpg" />
+    <Content Include="imagens_Produto\suco de laranja.jpg" />
+    <Content Include="imagens_Produto\Suco-Detox-de-Laranja.jpg" />
+    <Content Include="imagens_Produto\sunny-america.jpg" />
+    <Content Include="imagens_Produto\texas.jpg" />
+    <Content Include="imagens_Produto\Tilapia.png" />
+    <Content Include="imagens_Produto\times-square-dog.jpg" />
+    <Content Include="imagens_Produto\veggie-burger.jpg" />
+    <Content Include="imagens_Produto\veggie-sandwich.jpg" />
+    <Content Include="jquery-1.11.3.js" />
+    <Content Include="Mobile\css\abaConta.css" />
+    <Content Include="Mobile\css\abaPedido.css" />
+    <Content Include="Mobile\css\barraUsuario.css" />
+    <Content Include="Mobile\css\comanda.css" />
+    <Content Include="Mobile\css\contentCardapio.css" />
+    <Content Include="Mobile\css\master.css" />
+    <Content Include="Mobile\css\msgBoxProd.css" />
+    <Content Include="Mobile\css\tutorial.css" />
+    <Content Include="Mobile\images\categorias\bebida.png" />
+    <Content Include="Mobile\images\categorias\burger.png" />
+    <Content Include="Mobile\images\categorias\grelhado.png" />
+    <Content Include="Mobile\images\categorias\pasta.png" />
+    <Content Include="Mobile\images\categorias\peixe.png" />
+    <Content Include="Mobile\images\categorias\porcao.png" />
+    <Content Include="Mobile\images\categorias\pratos.png" />
+    <Content Include="Mobile\images\categorias\salada.png" />
+    <Content Include="Mobile\images\categorias\sanduiche.png" />
+    <Content Include="Mobile\images\categorias\sobremesa.png" />
+    <Content Include="Mobile\images\conta\btnAccept.fw.png" />
+    <Content Include="Mobile\images\conta\btnAccept2.fw.png" />
+    <Content Include="Mobile\images\conta\btnFinalizar.fw.png" />
+    <Content Include="Mobile\images\conta\FinalizarContaRedi.fw.png" />
+    <Content Include="Mobile\images\master\addcomanda.fw.png" />
+    <Content Include="Mobile\images\master\Background01.png" />
+    <Content Include="Mobile\images\master\botaoCardapio1.fw.png" />
+    <Content Include="Mobile\images\master\botaoConta.fw.png" />
+    <Content Include="Mobile\images\master\btnCardapioTeste.fw.png" />
+    <Content Include="Mobile\images\master\divMainStrong.fw.png" />
+    <Content Include="Mobile\images\master\masterCategoria.png" />
+    <Content Include="Mobile\images\master\masterHeader.png" />
+    <Content Include="Mobile\images\msgBox\btnCancelar.fw.png" />
+    <Content Include="Mobile\images\msgBox\btnOk.fw.png" />
+    <Content Include="Mobile\images\msgBox\fundoComAvisoECaixa.fw.png" />
+    <Content Include="Mobile\images\msgBox\garcomVectorMsgBox.fw.png" />
+    <Content Include="Mobile\images\pagina1\botaoUnica.fw.png" />
+    <Content Include="Mobile\images\pagina1\contaSeparada.fw.png" />
+    <Content Include="Mobile\images\pagina1\fundoPagina1Oficial.fw.png" />
+    <Content Include="Mobile\images\pagina2\fundoPagina2OficialLogoMyWaiter.fw.png" />
+    <Content Include="Mobile\images\pagina1\telaObrigado.fw.png" />
+    <Content Include="Mobile\images\pagina2\fundoPagina2Oficial.fw.png" />
+    <Content Include="Mobile\images\pagina2\setaEsquerda.fw.png" />
+    <Content Include="Mobile\images\pagina2\setDireita.fw.png" />
+    <Content Include="Mobile\images\pagina3\botaoProduto.fw.png" />
+    <Content Include="Mobile\images\pagina3\botaoProdutoBaixo.fw.png" />
+    <Content Include="Mobile\images\pagina3\fundoPagina3Oficial.fw.png" />
+    <Content Include="Mobile\images\pagina3\fundoPagina3OficialLogoMyWaiter.fw.png" />
+    <Content Include="Mobile\images\pagina3\setaEsquerda.fw.png" />
+    <Content Include="Mobile\images\pagina3\setDireita.fw.png" />
+    <Content Include="Mobile\images\paginaComandas\botaoAdd.fw.png" />
+    <Content Include="Mobile\images\paginaComandas\btnDecline.fw.png" />
+    <Content Include="Mobile\images\paginaComandas\btnDecline2.fw.png" />
+    <Content Include="Mobile\images\paginaComandas\fundoPaginaComandas.fw.png" />
+    <Content Include="Mobile\images\paginaComandas\fundoPaginaComandasAtt.fw.png" />
+    <Content Include="Mobile\images\paginaComandas\logoMyWaiter.fw.png" />
+    <Content Include="Mobile\images\paginaComandas\logoRest.fw.png" />
+    <Content Include="Mobile\images\paginaComandas\txtNome.png" />
+    <Content Include="Mobile\images\paginaPedidos\barraCentral.png" />
+    <Content Include="Mobile\images\paginaPedidos\barraLateral.fw.png" />
+    <Content Include="Mobile\images\paginaPedidos\btnEnviarPedido.fw.png" />
+    <Content Include="Mobile\images\paginaPedidos\btnExcluirPequeno.fw.png" />
+    <Content Include="Mobile\images\paginaProduto\btnAddPed.fw.png" />
+    <Content Include="Mobile\images\paginaProduto\btnAdicionarAoPedido.fw.png" />
+    <Content Include="Mobile\images\paginaProduto\btnCancelar.fw.png" />
+    <Content Include="Mobile\images\pedido\0.fw.png" />
+    <Content Include="Mobile\images\pedido\1.fw.png" />
+    <Content Include="Mobile\images\pedido\10.fw.png" />
+    <Content Include="Mobile\images\pedido\11.fw.png" />
+    <Content Include="Mobile\images\pedido\12.fw.png" />
+    <Content Include="Mobile\images\pedido\13.fw.png" />
+    <Content Include="Mobile\images\pedido\14.fw.png" />
+    <Content Include="Mobile\images\pedido\15.fw.png" />
+    <Content Include="Mobile\images\pedido\16.fw.png" />
+    <Content Include="Mobile\images\pedido\17.fw.png" />
+    <Content Include="Mobile\images\pedido\18.fw.png" />
+    <Content Include="Mobile\images\pedido\19.fw.png" />
+    <Content Include="Mobile\images\pedido\2.fw.png" />
+    <Content Include="Mobile\images\pedido\20.fw.png" />
+    <Content Include="Mobile\images\pedido\20m.fw.png" />
+    <Content Include="Mobile\images\pedido\3.fw.png" />
+    <Content Include="Mobile\images\pedido\4.fw.png" />
+    <Content Include="Mobile\images\pedido\5.fw.png" />
+    <Content Include="Mobile\images\pedido\6.fw.png" />
+    <Content Include="Mobile\images\pedido\7.fw.png" />
+    <Content Include="Mobile\images\pedido\8.fw.png" />
+    <Content Include="Mobile\images\pedido\9.fw.png" />
+    <Content Include="Mobile\Pages\Conta.aspx" />
+    <Content Include="Mobile\Pages\pagina1.aspx" />
+    <Content Include="Mobile\Pages\pagina2.aspx" />
+    <Content Include="Mobile\Pages\pagina3.aspx" />
+    <Content Include="Mobile\Pages\paginaComandas.aspx" />
+    <Content Include="Mobile\Pages\Pedidos.aspx" />
+    <Content Include="Mobile\Pages\Produto.aspx" />
+    <Content Include="Mobile\Pages\produtosCategoria.aspx" />
+    <Content Include="Mobile\Pages\MasterCategoria.master" />
+    <Content Include="Mobile\Pages\MasterHeader.Master" />
+    <Content Include="Admin\webPages\masterPg.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mobile\Pages\telaFinal.aspx" />
+    <Content Include="Admin\webPages\pedidosCozinha.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Controller\Conta.cs" />
+    <Compile Include="Admin\Controller\MesaController.cs" />
+    <Compile Include="Admin\Controller\PedidoController.cs" />
+    <Compile Include="Admin\Controller\ProdutoController.cs" />
+    <Compile Include="Admin\Home\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Home\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Model\Comanda.cs" />
+    <Compile Include="Admin\Model\ComandaProduto.cs" />
+    <Compile Include="Admin\Model\Conta.cs" />
+    <Compile Include="Admin\Model\Mesa.cs" />
+    <Compile Include="Admin\Model\ModelPedido.cs" />
+    <Compile Include="Admin\Model\Produto.cs" />
+    <Compile Include="Admin\webPages\adicionarProdutos.aspx.cs">
+      <DependentUpon>adicionarProdutos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\webPages\adicionarProdutos.aspx.designer.cs">
+      <DependentUpon>adicionarProdutos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\webPages\editarProdutos.aspx.cs">
+      <DependentUpon>editarProdutos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\webPages\editarProdutos.aspx.designer.cs">
+      <DependentUpon>editarProdutos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\webPages\editarProdutoSelecionado.aspx.cs">
+      <DependentUpon>editarProdutoSelecionado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\webPages\editarProdutoSelecionado.aspx.designer.cs">
+      <DependentUpon>editarProdutoSelecionado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\webPages\mainAdmin.aspx.cs">
+      <DependentUpon>mainAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\webPages\mainAdmin.aspx.designer.cs">
+      <DependentUpon>mainAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\webPages\masterPg.Master.cs">
+      <DependentUpon>masterPg.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\webPages\masterPg.Master.designer.cs">
+      <DependentUpon>masterPg.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\webPages\mesasAdmin.aspx.cs">
+      <DependentUpon>mesasAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\webPages\mesasAdmin.aspx.designer.cs">
+      <DependentUpon>mesasAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\webPages\pedidosAdmin.aspx.cs">
+      <DependentUpon>pedidosAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\webPages\pedidosAdmin.aspx.designer.cs">
+      <DependentUpon>pedidosAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\webPages\produtosHome.aspx.cs">
+      <DependentUpon>produtosHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\webPages\produtosHome.aspx.designer.cs">
+      <DependentUpon>produtosHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\webPages\visualizarProdutos.aspx.cs">
+      <DependentUpon>visualizarProdutos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\webPages\visualizarProdutos.aspx.designer.cs">
+      <DependentUpon>visualizarProdutos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\webPages\visualizarProdutoSelecionado.aspx.cs">
+      <DependentUpon>visualizarProdutoSelecionado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\webPages\visualizarProdutoSelecionado.aspx.designer.cs">
+      <DependentUpon>visualizarProdutoSelecionado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\Controller\ConnectionString.cs" />
+    <Compile Include="Mobile\Controller\ControllerComanda.cs" />
+    <Compile Include="Mobile\Controller\ControllerComandaProduto.cs" />
+    <Compile Include="Mobile\Controller\ControllerConta.cs" />
+    <Compile Include="Mobile\Controller\ControllerMesa.cs" />
+    <Compile Include="Mobile\Controller\ControllerProduto.cs" />
+    <Compile Include="Mobile\Model\Comanda.cs" />
+    <Compile Include="Mobile\Model\ComandaProduto.cs" />
+    <Compile Include="Mobile\Model\Conta.cs" />
+    <Compile Include="Mobile\Model\Mesa.cs" />
+    <Compile Include="Mobile\Model\ModelPedido.cs" />
+    <Compile Include="Mobile\Model\Produto.cs" />
+    <Compile Include="Mobile\Pages\Conta.aspx.cs">
+      <DependentUpon>Conta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\Pages\Conta.aspx.designer.cs">
+      <DependentUpon>Conta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\Pages\MasterCategoria.master.cs">
+      <DependentUpon>MasterCategoria.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\Pages\MasterCategoria.master.designer.cs">
+      <DependentUpon>MasterCategoria.master</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\Pages\MasterHeader.Master.cs">
+      <DependentUpon>MasterHeader.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\Pages\MasterHeader.Master.designer.cs">
+      <DependentUpon>MasterHeader.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\Pages\pagina1.aspx.cs">
+      <DependentUpon>pagina1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\Pages\pagina1.aspx.designer.cs">
+      <DependentUpon>pagina1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\Pages\pagina2.aspx.cs">
+      <DependentUpon>pagina2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\Pages\pagina2.aspx.designer.cs">
+      <DependentUpon>pagina2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\Pages\pagina3.aspx.cs">
+      <DependentUpon>pagina3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\Pages\pagina3.aspx.designer.cs">
+      <DependentUpon>pagina3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\Pages\paginaComandas.aspx.cs">
+      <DependentUpon>paginaComandas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\Pages\paginaComandas.aspx.designer.cs">
+      <DependentUpon>paginaComandas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\Pages\Pedidos.aspx.cs">
+      <DependentUpon>Pedidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\Pages\Pedidos.aspx.designer.cs">
+      <DependentUpon>Pedidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\Pages\Produto.aspx.cs">
+      <DependentUpon>Produto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\Pages\Produto.aspx.designer.cs">
+      <DependentUpon>Produto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\Pages\produtosCategoria.aspx.cs">
+      <DependentUpon>produtosCategoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\Pages\produtosCategoria.aspx.designer.cs">
+      <DependentUpon>produtosCategoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\Pages\telaFinal.aspx.cs">
+      <DependentUpon>telaFinal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\Pages\telaFinal.aspx.designer.cs">
+      <DependentUpon>telaFinal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\webPages\pedidosCozinha.aspx.cs">
+      <DependentUpon>pedidosCozinha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\webPages\pedidosCozinha.aspx.designer.cs">
+      <DependentUpon>pedidosCozinha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>36073</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:36073/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
